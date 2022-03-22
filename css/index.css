@@ -1,0 +1,74 @@
+body{
+    background-color:  #e9f9f7;
+}
+
+.list-files {
+	
+	min-height: 160px;
+	height: auto;
+	padding-bottom: 20px;
+	border-radius: 15px;
+}
+
+.btn-join {
+	background: #ff6166;
+	color: white;
+	border: none;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.btn-add {
+	background: #fff;
+	color: #3fbfb0;
+    margin: 2%;
+	margin-bottom: 0px;
+	border: 1px dashed #3fbfb0;
+	padding: 5px;
+	font-size: 7vw;
+	cursor: pointer;
+   
+    
+}
+
+
+
+.no-files {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	padding-top: 65px
+}
+
+.pdf-file {
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444;
+	text-transform: uppercase;
+	margin: 2%;
+	margin-bottom: 0px;
+	border: 1px solid #3fbfb0;
+	padding: 5px;
+	text-align: center;
+	overflow: hidden;
+    background: #fff;
+}
+
+
+
+.btn-remove {
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	background: #ff6166;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	justify-content: center;
+	border-radius: 50%;
+	right: 0;
+    display: flex;
+    align-items: center;
+}
